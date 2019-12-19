@@ -50,8 +50,14 @@ function Reporter (runner, options) {
     }
     runner.testResults = obj
     const json = JSON.stringify(obj, null, 2)
+    let path = DEFAULT_REPORT_PATH
     const { reporterOptions } = options
-    const path = reporterOptions.output || DEFAULT_REPORT_PATH
+    if (reporterOptions) {
+      const { output } = reporterOptions
+      if (output) {
+        path = output
+      }
+    }
     const out = fs.openSync(path, 'w')
     fs.writeSync(out, json)
     fs.closeSync(out)
