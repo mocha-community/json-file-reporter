@@ -1,6 +1,6 @@
 {
   "name": "@mochajs/json-file-reporter",
-  "version": "0.3.0",
+  "version": "1.0.0",
   "description": "JSON file reporter for Mocha",
   "homepage": "https://github.com/mocha-community/json-file-reporter",
   "bugs": {
