@@ -1,6 +1,24 @@
 {
   "name": "@mochajs/json-file-reporter",
   "version": "0.3.0",
+  "description": "JSON file reporter for Mocha",
+  "homepage": "https://github.com/mocha-community/json-file-reporter",
+  "bugs": {
+    "url": "https://github.com/mocha-community/json-file-reporter/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mocha-community/json-file-reporter.git"
+  },
+  "scripts": {
+    "publish": "npm publish --access public",
+    "version:major": "npm version major",
+    "version:minor": "npm version minor",
+    "version:patch": "npm version patch"
+  },
+  "files": [
+    "index.js"
+  ],
   "main": "index.js",
   "peerDependencies": {
     "mocha": "6.x"
