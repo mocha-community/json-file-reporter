@@ -2,6 +2,8 @@
 [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
 # @mochajs/json-file-reporter
+JSON file reporter for Mocha
+
 ## Installation
 ```sh
 $ npm i -D @mochajs/json-file-reporter
