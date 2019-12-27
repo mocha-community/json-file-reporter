@@ -1,0 +1,10 @@
+{
+  "name": "example",
+  "scripts": {
+    "test": "mocha"
+  },
+  "devDependencies": {
+    "@mochajs/json-file-reporter": "^1.0.0",
+    "mocha": "^6.0.0"
+  }
+}
