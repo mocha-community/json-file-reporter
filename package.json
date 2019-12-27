@@ -17,9 +17,9 @@
     "version:patch": "npm version patch"
   },
   "files": [
-    "index.js"
+    "src"
   ],
-  "main": "index.js",
+  "main": "src/index.js",
   "peerDependencies": {
     "mocha": "6.x"
   },
