@@ -4,7 +4,7 @@
     "test": "mocha"
   },
   "devDependencies": {
-    "@mochajs/json-file-reporter": "^1.1.0",
+    "@mochajs/json-file-reporter": "^1.2.0",
     "mocha": "^7.1.1"
   }
 }
