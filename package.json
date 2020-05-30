@@ -23,6 +23,7 @@
   "peerDependencies": {
     "mocha": "6.x || 7.x"
   },
+  "license": "MIT",
   "devDependencies": {
     "eslint": "^6.7.2",
     "eslint-config-standard": "^14.1.0",
