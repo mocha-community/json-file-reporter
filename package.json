@@ -11,6 +11,7 @@
     "url": "https://github.com/mocha-community/json-file-reporter.git"
   },
   "scripts": {
+    "lint": "eslint .",
     "publish": "npm publish --access public",
     "version:major": "npm version major",
     "version:minor": "npm version minor",
