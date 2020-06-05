@@ -1,7 +1,10 @@
 {
   "name": "@mochajs/json-file-reporter",
   "version": "1.2.0",
-  "author": "Munieru",
+  "author": {
+    "name": "Munieru",
+    "url": "https://github.com/munierujp"
+  },
   "contributors": [],
   "description": "JSON file reporter for Mocha",
   "homepage": "https://github.com/mocha-community/json-file-reporter",
