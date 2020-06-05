@@ -1,10 +1,18 @@
 {
   "name": "@mochajs/json-file-reporter",
   "version": "1.2.0",
+  "author": {
+    "name": "Munieru",
+    "url": "https://github.com/munierujp"
+  },
+  "contributors": [],
   "description": "JSON file reporter for Mocha",
   "homepage": "https://github.com/mocha-community/json-file-reporter",
   "bugs": {
     "url": "https://github.com/mocha-community/json-file-reporter/issues"
+  },
+  "engines": {
+    "node": ">=6.0.0"
   },
   "repository": {
     "type": "git",
@@ -24,6 +32,12 @@
     "mocha": "6.x || 7.x"
   },
   "license": "MIT",
+  "keywords": [
+    "mocha",
+    "json",
+    "reporter"
+  ],
+  "dependencies": {},
   "devDependencies": {
     "eslint": "^6.7.2",
     "eslint-config-standard": "^14.1.0",
