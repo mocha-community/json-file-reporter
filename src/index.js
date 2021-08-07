@@ -73,6 +73,7 @@ function clean (test) {
   return {
     title: test.title,
     fullTitle: test.fullTitle(),
+    file: test.file,
     duration: test.duration,
     currentRetry: test.currentRetry(),
     err: cleanCycles(err)
